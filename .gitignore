@@ -6,6 +6,7 @@ obj/
 work/dotnet/
 work/publish/
 work/qa/
+outputs/
 
 ## Playwright runtime evidence
 .playwright-mcp/
