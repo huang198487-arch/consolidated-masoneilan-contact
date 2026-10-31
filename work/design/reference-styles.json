@@ -1,0 +1,161 @@
+{
+  "title": "Welcome to Baker Hughes Valves | Valves",
+  "body": {
+    "selector": "body",
+    "text": "<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-NDV36D2\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe> Skip to main content .cls-alert1 { fill:",
+    "tag": "BODY",
+    "box": {
+      "x": 0,
+      "y": 0,
+      "width": 1020.6666870117188,
+      "height": 2948.21875
+    },
+    "font": {
+      "family": "\"Poppins Regular\", sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal"
+    },
+    "color": "rgb(0, 0, 0)",
+    "background": "rgb(249, 249, 249)",
+    "backgroundImage": "none"
+  },
+  "hero": {
+    "selector": "h1",
+    "text": "Welcome to Baker Hughes",
+    "tag": "H1",
+    "box": {
+      "x": 160,
+      "y": 190,
+      "width": 861,
+      "height": 57.177085876464844
+    },
+    "font": {
+      "family": "\"Poppins Regular\", sans-serif",
+      "size": "32px",
+      "weight": "400",
+      "lineHeight": "48px",
+      "letterSpacing": "normal"
+    },
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "backgroundImage": "none"
+  },
+  "heroSection": {
+    "x": 160,
+    "y": 190,
+    "width": 861,
+    "height": 57.177085876464844
+  },
+  "nav": {
+    "selector": "nav",
+    "text": "Main navigation .cls-1{fill:#fff;}.cls-2{fill:#02bc94;}.cls-3{fill:#018374;} Home Brands Industries Digital Products Services Resources News Contact Us My recent searches Clear Hom",
+    "tag": "NAV",
+    "box": {
+      "x": 0,
+      "y": 10,
+      "width": 1020.6666870117188,
+      "height": 89.66667175292969
+    },
+    "font": {
+      "family": "\"Poppins Regular\", sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal"
+    },
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "backgroundImage": "none"
+  },
+  "navBackground": "rgba(0, 0, 0, 0)",
+  "samples": [
+    {
+      "selector": "h1",
+      "text": "Welcome to Baker Hughes",
+      "tag": "H1",
+      "box": {
+        "x": 160,
+        "y": 190,
+        "width": 861,
+        "height": 57.177085876464844
+      },
+      "font": {
+        "family": "\"Poppins Regular\", sans-serif",
+        "size": "32px",
+        "weight": "400",
+        "lineHeight": "48px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)",
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "selector": "p",
+      "text": "Setting the standard for Control Valve and Pressure Relief Valve technology for over 140 years",
+      "tag": "P",
+      "box": {
+        "x": 160,
+        "y": 259.1770935058594,
+        "width": 645.75,
+        "height": 94.5
+      },
+      "font": {
+        "family": "\"Poppins Regular\", sans-serif",
+        "size": "28px",
+        "weight": "400",
+        "lineHeight": "31.5px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(255, 255, 255)",
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "selector": "a",
+      "text": "Skip to main content",
+      "tag": "A",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "font": {
+        "family": "\"Poppins Regular\", sans-serif",
+        "size": "16px",
+        "weight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 238)",
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "selector": "button",
+      "text": "",
+      "tag": "BUTTON",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "font": {
+        "family": "sans-serif",
+        "size": "16px",
+        "weight": "400",
+        "lineHeight": "18.4px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(255, 255, 255)",
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    }
+  ],
+  "images": [],
+  "cssVars": []
+}

@@ -1,0 +1,180 @@
+{
+  "videos": [],
+  "sources": [],
+  "backgrounds": [
+    {
+      "tag": "DIV",
+      "cls": "slide-image has-gradient",
+      "bg": "url(\"https://valves.bakerhughes.com/sites/g/files/cozyhq631/files/styles/large/public/2020-01/001-welcome-to-bh-banner-1348x508.jpg?itok=SZv4sGP3\")"
+    },
+    {
+      "tag": "DIV",
+      "cls": "slide-image has-gradient",
+      "bg": "url(\"https://valves.bakerhughes.com/sites/g/files/cozyhq631/files/styles/large/public/2021-12/Masoneilan-banner-1600x760_0.jpg?itok=nqaFVnzt\")"
+    },
+    {
+      "tag": "DIV",
+      "cls": "slide-image has-gradient",
+      "bg": "url(\"https://valves.bakerhughes.com/sites/g/files/cozyhq631/files/styles/large/public/2021-12/Consolidated-banner-1600x760_0.jpg?itok=iq2ZVdrd\")"
+    },
+    {
+      "tag": "DIV",
+      "cls": "slide-image has-gradient",
+      "bg": "url(\"https://valves.bakerhughes.com/sites/g/files/cozyhq631/files/styles/large/public/2021-12/Becker-banner-1600x760_0.jpg?itok=RYOxE9hf\")"
+    },
+    {
+      "tag": "DIV",
+      "cls": "slide-image has-gradient",
+      "bg": "url(\"https://valves.bakerhughes.com/sites/g/files/cozyhq631/files/styles/large/public/2021-12/Mooney-banner-1600x760_0.jpg?itok=8HUgnTTn\")"
+    },
+    {
+      "tag": "FIGURE",
+      "cls": "image js-image",
+      "bg": "url(\"https://valves.bakerhughes.com/sites/g/files/cozyhq631/files/styles/three_card_image/public/2022-03/Industry-block-Energy-Transition-400x245.jpg?itok=gfySWmbk\")"
+    },
+    {
+      "tag": "FIGURE",
+      "cls": "image js-image",
+      "bg": "url(\"https://valves.bakerhughes.com/sites/g/files/cozyhq631/files/styles/three_card_image/public/2021-10/digitalassetmanagement.png?itok=57DwbWOa\")"
+    },
+    {
+      "tag": "FIGURE",
+      "cls": "image js-image",
+      "bg": "url(\"https://valves.bakerhughes.com/sites/g/files/cozyhq631/files/styles/three_card_image/public/2021-10/technologyinnovatin.png?itok=mws-GWXS\")"
+    },
+    {
+      "tag": "FIGURE",
+      "cls": "image js-image",
+      "bg": "url(\"https://valves.bakerhughes.com/sites/g/files/cozyhq631/files/styles/gallery_image/public/2026-10/consolidated-5500-series-changeover-valve-news-image_0_2.jpg?itok=xX4WBUpR\")"
+    },
+    {
+      "tag": "FIGURE",
+      "cls": "image js-image",
+      "bg": "url(\"https://valves.bakerhughes.com/sites/g/files/cozyhq631/files/styles/gallery_image/public/2026-03/Screenshot_10-3-2026_134644_www.contdisc.com_.jpeg?itok=FobMjz2y\")"
+    },
+    {
+      "tag": "FIGURE",
+      "cls": "image js-image",
+      "bg": "url(\"https://valves.bakerhughes.com/sites/g/files/cozyhq631/files/styles/gallery_image/public/2026-01/shutterstock_1716314884%20%281%29.jpg?itok=iX8YZ3Ul\")"
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "ot-close-icon",
+      "bg": "url(\"https://cdn.cookielaw.org/logos/static/ot_close.svg\")"
+    }
+  ],
+  "logo": [
+    {
+      "tag": "svg",
+      "src": null,
+      "outer": "<svg id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1920 494.92\"><defs><style>.cls-1{fill:#fff;}.cls-2{fill:#02bc94;}.cls-3{fill:#018374;}</style></defs><path class=\"cls-3\" d=\"M1561.23,121.76c-8.81-3.21-13.35-12.95-10.15-21.76,3.21-8.81,12.95-13.35,21.76-10.15-18.4-6.7-38.75,2.79-45.45,21.19-6.7,18.4,2.79,38.75,21.19,45.45l174.25,63.42-149.99,54.59c-18.4,6.7-38.75-2.79-45.45-21.19-6."
+    },
+    {
+      "tag": "svg",
+      "src": null,
+      "outer": "<svg viewBox=\"0 0 36.438 34.406\" id=\"search\" width=\"100%\" height=\"100%\">\n          <circle class=\"cls-search1\" cx=\"17\" cy=\"17\" r=\"15\"></circle>\n          <path class=\"cls-search2\" d=\"M31.438,30.674l0.807-.634,5.165,5.078-0.807.634Z\" transform=\"translate(-4 -4)\"></path>\n        </svg>"
+    },
+    {
+      "tag": "svg",
+      "src": null,
+      "outer": "<svg viewBox=\"0 0 36.438 34.406\" id=\"search\" width=\"100%\" height=\"100%\">\n          <circle class=\"cls-search1\" cx=\"17\" cy=\"17\" r=\"15\"></circle>\n          <path class=\"cls-search2\" d=\"M31.438,30.674l0.807-.634,5.165,5.078-0.807.634Z\" transform=\"translate(-4 -4)\"></path>\n        </svg>"
+    },
+    {
+      "tag": "svg",
+      "src": null,
+      "outer": "<svg class=\"component-icon icon\">\n          <use xlink:href=\"#chevron-next\"></use>\n        </svg>"
+    },
+    {
+      "tag": "svg",
+      "src": null,
+      "outer": "<svg class=\"component-icon icon\">\n    <use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#chevron-back\"></use>\n  </svg>"
+    },
+    {
+      "tag": "svg",
+      "src": null,
+      "outer": "<svg class=\"component-icon icon\">\n              <use xlink:href=\"#chevron-next\"></use>\n            </svg>"
+    },
+    {
+      "tag": "svg",
+      "src": null,
+      "outer": "<svg class=\"component-icon icon\">\n    <use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#chevron-back\"></use>\n  </svg>"
+    },
+    {
+      "tag": "svg",
+      "src": null,
+      "outer": "<svg class=\"component-icon icon\">\n              <use xlink:href=\"#chevron-next\"></use>\n            </svg>"
+    },
+    {
+      "tag": "svg",
+      "src": null,
+      "outer": "<svg class=\"component-icon icon\">\n    <use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#chevron-back\"></use>\n  </svg>"
+    },
+    {
+      "tag": "svg",
+      "src": null,
+      "outer": "<svg class=\"component-icon icon\">\n              <use xlink:href=\"#chevron-next\"></use>\n            </svg>"
+    }
+  ],
+  "links": [
+    {
+      "text": ".cls-1{fill:#fff;}.cls-2{fill:#02bc94;}.cls-3{fill:#018374;}",
+      "href": "https://valves.bakerhughes.com/"
+    },
+    {
+      "text": "Home",
+      "href": "https://valves.bakerhughes.com/valves"
+    },
+    {
+      "text": "Brands",
+      "href": "https://valves.bakerhughes.com/brands"
+    },
+    {
+      "text": "Industries",
+      "href": "https://valves.bakerhughes.com/industries"
+    },
+    {
+      "text": "Digital",
+      "href": "https://valves.bakerhughes.com/valve-lifecycle-management"
+    },
+    {
+      "text": "Products",
+      "href": "https://valves.bakerhughes.com/technology-and-innovation"
+    },
+    {
+      "text": "Services",
+      "href": "https://valves.bakerhughes.com/global-amc"
+    },
+    {
+      "text": "Resources",
+      "href": "https://valves.bakerhughes.com/resource-center"
+    },
+    {
+      "text": "News",
+      "href": "https://valves.bakerhughes.com/news-room"
+    },
+    {
+      "text": "Contact Us",
+      "href": "https://valves.bakerhughes.com/contact-us"
+    },
+    {
+      "text": "Home",
+      "href": "https://valves.bakerhughes.com/valves"
+    },
+    {
+      "text": "Brands",
+      "href": "https://valves.bakerhughes.com/brands"
+    },
+    {
+      "text": "Brands",
+      "href": "https://valves.bakerhughes.com/brands"
+    },
+    {
+      "text": "Masoneilan",
+      "href": "https://valves.bakerhughes.com/masoneilan"
+    },
+    {
+      "text": "Masoneilan",
+      "href": "https://valves.bakerhughes.com/masoneilan"
+    }
+  ]
+}

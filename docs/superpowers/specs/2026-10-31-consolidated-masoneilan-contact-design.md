@@ -65,12 +65,13 @@ All customer-facing copy must be written in natural, professional Simplified Chi
 
 ## Visual Direction
 
-The design uses an industrial editorial style with a true deep navy background, white and cool-neutral surfaces, and restrained warm copper accents. It should feel established and technical rather than like a generic card-based SaaS template.
+The design uses an industrial editorial style informed by the public Baker Hughes Valves website at `https://valves.bakerhughes.com/`: a clean white header, deep navy and photographic hero bands, and the brand's vivid green accent. It should feel established and technical rather than like a generic card-based SaaS template.
 
 Key visual rules:
 
 - Strong typographic hierarchy using a serif display face supported by a clean Chinese sans-serif body face.
 - An image-led hero with a purpose-built industrial valve scene, integrated without a color wash.
+- A restrained brand-green accent drawn from the visual language of the Baker Hughes Valves website.
 - Open bands and editorial split layouts instead of nested cards or repeated generic feature grids.
 - A single contact panel that visually anchors the lower half of the page.
 - Thin technical rules and a subtle product-drawing motif as the signature decorative language.
@@ -78,12 +79,12 @@ Key visual rules:
 
 ## Design System
 
-- Colors: deep navy `#071D2B`, ink `#102733`, copper `#B87945`, cool white `#F5F7F6`, muted ink `#58707C`, and border `#D9E1E3`.
+- Colors: deep navy `#071D2B`, ink `#102733`, Baker Hughes-style teal `#02BC94`, deep teal `#018374`, white `#FFFFFF`, cool white `#F5F7F6`, muted ink `#58707C`, and border `#D9E1E3`.
 - Display typography: local-safe serif stack with no external font dependency for the initial build.
 - UI typography: Segoe UI and Chinese system sans-serif fallback.
 - Spacing: an 8px-based scale with generous section rhythms.
 - Radii: restrained, with primarily square or lightly rounded media and controls.
-- Buttons: solid copper primary and outlined navy secondary with explicit focus states.
+- Buttons: solid teal primary and outlined navy secondary with explicit focus states.
 - Icons: custom inline SVG arrows, phone, email, copy, check, and language controls with consistent stroke weight.
 
 ## Architecture
