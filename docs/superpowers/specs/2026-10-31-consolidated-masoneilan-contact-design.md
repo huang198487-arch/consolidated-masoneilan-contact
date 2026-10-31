@@ -4,6 +4,8 @@
 
 Create a public, search-engine-readable Chinese sales contact website for customers looking for Baker Hughes' Consolidated and Masoneilan brands in China. The site must make the sales contact obvious, trustworthy, and immediately actionable on desktop and mobile.
 
+The primary audience is customers in mainland China, especially procurement teams, process engineers, maintenance teams, and EPC project teams seeking valve product and sales-contact information.
+
 The primary contact is:
 
 - Name: 黄海宏
@@ -108,13 +110,14 @@ Each page supplies:
 - Open Graph and Twitter card metadata.
 - `ContactPage` and `Person` structured data containing the supplied name and contact methods.
 - Crawlable phone and email values in the rendered HTML.
+- Chinese search-intent wording for Baidu, Bing China, and Google, including 康索尼德、梅索尼兰、销售联系方式、安全阀、控制阀、黄海宏 and the supplied contact information.
 
 Site-wide endpoints:
 
 - `/robots.txt` allows crawling and references `/sitemap.xml`.
 - `/sitemap.xml` lists the canonical Chinese page using the active public host.
 
-Indexing and ranking are not guaranteed. Search-engine account verification and submission become possible only after a public domain is available.
+Indexing and ranking are not guaranteed. Search-engine account verification and submission become possible only after a public domain is available. If hosting is later placed in mainland China, domain licensing or ICP filing requirements must be confirmed before launch.
 
 ## Interaction and Error Handling
 
