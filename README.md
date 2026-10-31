@@ -60,3 +60,15 @@ dotnet run --project .\src\ConsolidatedMasoneilanContact
 ## 上线
 
 公网网站需要域名和服务器。完整步骤见 [DEPLOYMENT.md](DEPLOYMENT.md)。
+
+### Render 免费部署
+
+仓库根目录已包含 `Dockerfile` 和 `render.yaml`，可在 Render 的免费 Web Service 计划中运行，不需要数据库。
+
+1. 将 Pull Request 合并到 `main`，确保 `render.yaml` 出现在默认分支。
+2. 登录 Render，并授权访问 GitHub 仓库。
+3. 打开 [Render Blueprint](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2Fhuang198487-arch%2Fconsolidated-masoneilan-contact)。
+4. 确认服务为 `free` 计划、`singapore` 区域和 `/health` 健康检查。
+5. 点击应用并等待首次构建完成。
+
+免费实例在闲置后会休眠，首次访问可能需要等待唤醒。免费子域名可用于先公开和分享，但若要稳定兼顾中国大陆访问与百度收录，后续仍建议使用正式域名和国内或香港主机。
