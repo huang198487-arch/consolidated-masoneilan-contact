@@ -1,10 +1,49 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = Model.PageContent.Title;
+    ViewData["Description"] = Model.PageContent.Description;
+    ViewData["FooterNote"] = Model.PageContent.FooterNote;
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<section class="hero" aria-labelledby="hero-title">
+    <img class="hero__image"
+         src="~/images/valve-hero.jpg"
+         alt="工业阀门装置场景"
+         width="1320"
+         height="627"
+         fetchpriority="high" />
+    <div class="hero__shade" aria-hidden="true"></div>
+
+    <div class="page-shell hero__inner">
+        <div class="hero__copy">
+            <p class="hero__brand-line">@Model.PageContent.HeroBrandLine</p>
+            <h1 id="hero-title">@Model.PageContent.HeroHeading</h1>
+            <p class="hero__summary">@Model.PageContent.HeroSummary</p>
+            <div class="hero__actions">
+                <a class="button button--primary" href="#contact">
+                    直接联系销售
+                    <span class="button__icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M5 12h14M13 6l6 6-6 6" />
+                        </svg>
+                    </span>
+                </a>
+                <a class="text-link text-link--light" href="#brands">了解产品品牌</a>
+            </div>
+        </div>
+
+        <a class="hero__phone" href="@Model.PageContent.Contact.PhoneUri" aria-label="拨打销售电话 @Model.PageContent.Contact.DisplayPhone">
+            <span>销售直线</span>
+            <strong>@Model.PageContent.Contact.DisplayPhone</strong>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M7.2 3.5 9.5 8l-2 1.7c1.2 2.8 3.9 5.5 6.8 6.8l1.7-2 4.5 2.3-.8 2.5c-.3.9-1.1 1.5-2 1.5C10 20.8 3.2 14 3.2 6.3c0-.9.6-1.7 1.5-2z" />
+            </svg>
+        </a>
+    </div>
+</section>
+
+<main id="main-content">
+    <partial name="_BrandSection" model="Model.PageContent" />
+    <partial name="_ContactSection" model="Model.PageContent" />
+</main>
