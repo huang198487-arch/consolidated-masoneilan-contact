@@ -11,7 +11,9 @@ public sealed class StaticAssetTests(WebApplicationFactory<Program> factory)
     [Theory]
     [InlineData("/css/site.css", "text/css")]
     [InlineData("/js/site.js", "text/javascript")]
-    [InlineData("/images/valve-hero.jpg", "image/jpeg")]
+    [InlineData("/images/consolidated-valve-scene.jpg", "image/jpeg")]
+    [InlineData("/images/consolidated-valve-product.jpg", "image/jpeg")]
+    [InlineData("/images/masoneilan-banner.jpg", "image/jpeg")]
     [InlineData("/images/favicon.svg", "image/svg+xml")]
     public async Task Required_public_asset_is_available(string path, string expectedMediaType)
     {

@@ -19,8 +19,10 @@ public static class SiteContentCatalog
                 ChineseName: "康索尼德",
                 ProductLabel: "安全泄压阀",
                 Description: "聚焦压力保护应用，为流程工业中的设备与系统提供安全泄压阀产品沟通与选型支持。",
-                ImagePath: "/images/valve-hero.jpg",
-                ImageAlt: "Consolidated 安全泄压阀产品场景"),
+                ImagePath: "/images/consolidated-valve-product.jpg",
+                ImageAlt: "Consolidated 安全泄压阀产品照片",
+                ImageWidth: 500,
+                ImageHeight: 480),
             new BrandProfile(
                 Number: "02",
                 Name: "Masoneilan",
@@ -28,7 +30,9 @@ public static class SiteContentCatalog
                 ProductLabel: "控制阀及仪表",
                 Description: "面向过程控制场景，提供控制阀与仪表产品沟通，帮助客户对接具体工况与应用需求。",
                 ImagePath: "/images/masoneilan-banner.jpg",
-                ImageAlt: "Masoneilan 控制阀产品场景")
+                ImageAlt: "Masoneilan 控制阀产品照片",
+                ImageWidth: 1320,
+                ImageHeight: 627)
         ],
         ContactSectionLabel: "02 / 销售联系",
         ContactHeading: "直接联系销售",

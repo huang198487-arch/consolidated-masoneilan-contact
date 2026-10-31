@@ -7,7 +7,9 @@ public sealed record BrandProfile(
     string ProductLabel,
     string Description,
     string ImagePath,
-    string ImageAlt);
+    string ImageAlt,
+    int ImageWidth,
+    int ImageHeight);
 
 public sealed record SiteContent(
     string Title,

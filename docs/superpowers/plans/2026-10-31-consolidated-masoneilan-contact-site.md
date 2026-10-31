@@ -343,12 +343,15 @@ git commit -m "feat: add search metadata and operational endpoints"
 ### Task 5: Implement the Industrial Responsive Visual System
 
 **Files:**
-- Read: `work/design/concept-hero.png`
-- Read: `work/design/concept-page.png`
+- Read: `work/design/reference-valves-home.png`
+- Read: `work/design/reference-styles.json`
+- Read: `work/design/reference-media.json`
 - Read: `docs/superpowers/plans/2026-10-31-design-system.md`
 - Create: `src/ConsolidatedMasoneilanContact/wwwroot/css/site.css`
 - Create: `src/ConsolidatedMasoneilanContact/wwwroot/js/site.js`
-- Create: `src/ConsolidatedMasoneilanContact/wwwroot/images/valve-hero.webp`
+- Create: `src/ConsolidatedMasoneilanContact/wwwroot/images/consolidated-valve-scene.jpg`
+- Create: `src/ConsolidatedMasoneilanContact/wwwroot/images/consolidated-valve-product.jpg`
+- Create: `src/ConsolidatedMasoneilanContact/wwwroot/images/masoneilan-banner.jpg`
 - Create: `src/ConsolidatedMasoneilanContact/wwwroot/images/favicon.svg`
 - Modify: Razor page and shared partials from Task 3.
 - Test: `tests/ConsolidatedMasoneilanContact.Tests/StaticAssetTests.cs`
@@ -377,7 +380,7 @@ git commit -m "feat: add search metadata and operational endpoints"
 
 - [ ] **Step 1: Add failing static asset tests**
 
-Assert that `/css/site.css`, `/js/site.js`, `/images/valve-hero.webp`, and `/images/favicon.svg` return `200`, and that the home page references all four.
+Assert that `/css/site.css`, `/js/site.js`, all three valve photos, and `/images/favicon.svg` return `200`, and that the home page references the site assets.
 
 - [ ] **Step 2: Run the static asset tests to verify failure**
 
