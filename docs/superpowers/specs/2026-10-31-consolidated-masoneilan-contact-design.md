@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Create a public, search-engine-readable sales contact website for customers looking for Baker Hughes' Consolidated and Masoneilan brands in China. The site must make the sales contact obvious, trustworthy, and immediately actionable on desktop and mobile.
+Create a public, search-engine-readable Chinese sales contact website for customers looking for Baker Hughes' Consolidated and Masoneilan brands in China. The site must make the sales contact obvious, trustworthy, and immediately actionable on desktop and mobile.
 
 The primary contact is:
 
@@ -14,8 +14,8 @@ The primary contact is:
 
 - A visitor can identify the two represented product brands within the first viewport.
 - A visitor can call or email 黄海宏 in one click or copy either contact detail.
-- Chinese and English content are independently reachable and indexable.
-- Search engines receive descriptive page titles, descriptions, canonical URLs, hreflang links, structured data, `robots.txt`, and `sitemap.xml`.
+- The complete customer-facing experience is available in Simplified Chinese.
+- Search engines receive descriptive Chinese page titles, descriptions, canonical URLs, structured data, `robots.txt`, and `sitemap.xml`.
 - The page remains readable and usable at desktop, tablet, and mobile widths.
 - The application builds, serves successfully, and passes automated and browser checks.
 
@@ -23,8 +23,8 @@ The primary contact is:
 
 ### Included
 
-- A bilingual, single-page-style public website using distinct URLs for each language.
-- Chinese route at `/` and English route at `/en`.
+- A Chinese, single-page-style public website.
+- The primary page route is `/`.
 - Brand introduction for Consolidated and Masoneilan.
 - A prominent sales contact section for 黄海宏.
 - One-click phone and email actions plus copy controls.
@@ -59,7 +59,7 @@ The contact information and customer value proposition are fixed by the user's b
 - Masoneilan: control valve and instrumentation products.
 - The site must not invent a job title, office address, business hours, response-time promise, or local inventory claim.
 
-Chinese and English copy must express the same facts and calls to action. The English page may adapt tone for international readers but must preserve the exact phone number and email address.
+All customer-facing copy must be written in natural, professional Simplified Chinese.
 
 ## Visual Direction
 
@@ -90,19 +90,13 @@ The site is an ASP.NET Core 10 Razor Pages application using the modern `WebAppl
 
 Primary components:
 
-- Razor Pages for the Chinese and English public routes.
+- Razor Pages for the Chinese public route.
 - A shared layout and partials for metadata, header, footer, and contact presentation.
-- A small localization content service that returns strongly typed page copy for the requested culture.
 - Minimal endpoints for `robots.txt`, `sitemap.xml`, and `/health`.
 - Static production assets under `wwwroot`.
 - No database and no server-side mutable state.
 
-Language URLs are canonical and indexable:
-
-- Chinese: `/`
-- English: `/en`
-
-Both pages publish reciprocal `hreflang` metadata for `zh-CN`, `en`, and `x-default`.
+The Chinese page at `/` is the canonical indexable URL.
 
 ## SEO
 
@@ -111,7 +105,6 @@ Each page supplies:
 - A unique title and meta description containing the represented brands and sales contact intent.
 - One clear H1 and a semantic heading sequence.
 - Canonical absolute URL derived from the active public request host and forwarded headers.
-- `hreflang` alternates.
 - Open Graph and Twitter card metadata.
 - `ContactPage` and `Person` structured data containing the supplied name and contact methods.
 - Crawlable phone and email values in the rendered HTML.
@@ -119,7 +112,7 @@ Each page supplies:
 Site-wide endpoints:
 
 - `/robots.txt` allows crawling and references `/sitemap.xml`.
-- `/sitemap.xml` lists both language URLs and their alternates using the active public host.
+- `/sitemap.xml` lists the canonical Chinese page using the active public host.
 
 Indexing and ranking are not guaranteed. Search-engine account verification and submission become possible only after a public domain is available.
 
@@ -129,7 +122,7 @@ Indexing and ranking are not guaranteed. Search-engine account verification and 
 - Email controls use `mailto:king.huang@bakerhughes.com`.
 - Copy controls use the browser Clipboard API and announce success or failure through an accessible live region.
 - Clipboard rejection or unavailability falls back to selecting the displayed text and clearly instructs the visitor to copy manually.
-- Language navigation uses ordinary links so it works without JavaScript.
+- Navigation uses ordinary links so it works without JavaScript.
 - The health endpoint returns `200` with a minimal JSON payload and no sensitive diagnostics.
 - Unknown routes render a branded `404` page with links back to the contact route.
 
@@ -154,8 +147,8 @@ Indexing and ranking are not guaranteed. Search-engine account verification and 
 
 ### Automated Integration Tests
 
-- Chinese and English routes return `200`.
-- Titles, descriptions, H1s, canonical URLs, and hreflang links are present.
+- The Chinese route returns `200`.
+- Chinese titles, descriptions, H1s, and canonical URLs are present.
 - Phone, email, and structured data contain the supplied contact information.
 - `robots.txt` and `sitemap.xml` return valid content types and expected URLs.
 - `/health` returns `200`.
