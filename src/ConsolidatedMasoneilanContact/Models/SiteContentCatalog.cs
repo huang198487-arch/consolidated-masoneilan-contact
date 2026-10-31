@@ -38,6 +38,7 @@ public static class SiteContentCatalog
         ContactHeading: "直接联系销售",
         ContactSummary: "如需了解相关产品，或希望进一步沟通具体应用，请通过电话或邮件联系黄海宏。",
         FooterNote: "Consolidated 与 Masoneilan 为贝克休斯旗下阀门品牌。",
+        OfficialSiteUrl: "https://valves.bakerhughes.com/",
         Contact: new SalesContact(
             Name: "黄海宏",
             Role: "销售联系人",

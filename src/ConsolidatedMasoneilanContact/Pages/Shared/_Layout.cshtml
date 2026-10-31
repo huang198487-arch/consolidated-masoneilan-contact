@@ -46,7 +46,15 @@
                 <strong>Consolidated · Masoneilan</strong>
                 <p>@ViewData["FooterNote"]</p>
             </div>
-            <a href="mailto:king.huang@bakerhughes.com">king.huang@bakerhughes.com</a>
+            <div class="site-footer__links">
+                @if (ViewData["OfficialSiteUrl"] is string officialSiteUrl)
+                {
+                    <a href="@officialSiteUrl" target="_blank" rel="noopener noreferrer">
+                        Baker Hughes 阀门官网
+                    </a>
+                }
+                <a href="mailto:king.huang@bakerhughes.com">king.huang@bakerhughes.com</a>
+            </div>
         </div>
     </footer>
 

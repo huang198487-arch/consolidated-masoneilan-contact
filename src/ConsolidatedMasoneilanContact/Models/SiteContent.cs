@@ -25,4 +25,5 @@ public sealed record SiteContent(
     string ContactHeading,
     string ContactSummary,
     string FooterNote,
+    string OfficialSiteUrl,
     SalesContact Contact);

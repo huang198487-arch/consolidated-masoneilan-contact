@@ -28,5 +28,10 @@ public sealed class PublicSiteTests(WebApplicationFactory<Program> factory)
         Assert.Contains("king.huang@bakerhughes.com", html, StringComparison.Ordinal);
         Assert.Contains("tel:+8618001547123", html, StringComparison.Ordinal);
         Assert.Contains("mailto:king.huang@bakerhughes.com", html, StringComparison.Ordinal);
+        Assert.Contains(
+            "href=\"https://valves.bakerhughes.com/\"",
+            html,
+            StringComparison.Ordinal);
+        Assert.Contains("rel=\"noopener noreferrer\"", html, StringComparison.Ordinal);
     }
 }
