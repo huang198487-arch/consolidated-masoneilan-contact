@@ -1,0 +1,25 @@
+## Build output
+bin/
+obj/
+
+## Local SDK and temporary execution output
+work/dotnet/
+work/publish/
+work/qa/
+
+## Playwright runtime evidence
+.playwright-mcp/
+
+## IDE and user state
+.vs/
+.vscode/
+*.user
+*.suo
+*.swp
+
+## Logs
+*.log
+
+## OS files
+.DS_Store
+Thumbs.db
