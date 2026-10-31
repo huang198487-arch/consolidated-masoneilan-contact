@@ -1,0 +1,50 @@
+@model ConsolidatedMasoneilanContact.Models.SiteContent
+@using System.Text.Json
+@using ConsolidatedMasoneilanContact.Infrastructure
+
+@{
+    var canonicalUrl = SiteUrlBuilder.Absolute(Context.Request, "/");
+    var nonce = Context.Items["csp-nonce"] as string;
+    var structuredData = new Dictionary<string, object?>
+    {
+        ["@context"] = "https://schema.org",
+        ["@type"] = "ContactPage",
+        ["name"] = Model.Title,
+        ["description"] = Model.Description,
+        ["url"] = canonicalUrl,
+        ["inLanguage"] = "zh-CN",
+        ["mainEntity"] = new Dictionary<string, object?>
+        {
+            ["@type"] = "Person",
+            ["name"] = Model.Contact.Name,
+            ["telephone"] = "+8618001547123",
+            ["email"] = Model.Contact.Email,
+            ["worksFor"] = new Dictionary<string, object?>
+            {
+                ["@type"] = "Organization",
+                ["name"] = "Baker Hughes"
+            },
+            ["contactPoint"] = new Dictionary<string, object?>
+            {
+                ["@type"] = "ContactPoint",
+                ["telephone"] = "+8618001547123",
+                ["email"] = Model.Contact.Email,
+                ["contactType"] = "sales",
+                ["availableLanguage"] = "zh-CN"
+            }
+        }
+    };
+    var json = JsonSerializer.Serialize(structuredData);
+}
+
+<link rel="canonical" href="@canonicalUrl" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="zh_CN" />
+<meta property="og:title" content="@Model.Title" />
+<meta property="og:description" content="@Model.Description" />
+<meta property="og:url" content="@canonicalUrl" />
+<meta property="og:image" content="@SiteUrlBuilder.Absolute(Context.Request, "/images/valve-hero.jpg")" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="@Model.Title" />
+<meta name="twitter:description" content="@Model.Description" />
+<script type="application/ld+json" nonce="@nonce">@Html.Raw(json)</script>

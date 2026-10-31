@@ -6,6 +6,10 @@
     ViewData["FooterNote"] = Model.PageContent.FooterNote;
 }
 
+@section Head {
+    <partial name="_SeoMeta" model="Model.PageContent" />
+}
+
 <section class="hero" aria-labelledby="hero-title">
     <img class="hero__image"
          src="~/images/valve-hero.jpg"

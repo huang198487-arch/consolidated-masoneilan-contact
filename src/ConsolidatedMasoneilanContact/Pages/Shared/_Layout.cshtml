@@ -8,6 +8,7 @@
     <title>@ViewData["Title"]</title>
     <link rel="icon" href="~/images/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    @await RenderSectionAsync("Head", required: false)
 </head>
 <body>
     <a class="skip-link" href="#main-content">跳到主要内容</a>

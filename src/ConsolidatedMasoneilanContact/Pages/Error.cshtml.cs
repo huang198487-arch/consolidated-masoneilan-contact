@@ -1,4 +1,3 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
@@ -8,13 +7,12 @@ namespace ConsolidatedMasoneilanContact.Pages;
 [IgnoreAntiforgeryToken]
 public class ErrorModel : PageModel
 {
-    public string? RequestId { get; set; }
+    public int ResponseStatusCode { get; private set; }
 
-    public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
-
-    public void OnGet()
+    public void OnGet(int? statusCode = null)
     {
-        RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier;
+        ResponseStatusCode = statusCode is >= 400 and <= 599 ? statusCode.Value : 500;
+        Response.StatusCode = ResponseStatusCode;
     }
 }
 

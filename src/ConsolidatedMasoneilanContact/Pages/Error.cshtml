@@ -1,26 +1,23 @@
 ﻿@page
 @model ErrorModel
 @{
-    ViewData["Title"] = "Error";
+    ViewData["Title"] = Model.ResponseStatusCode == 404 ? "页面未找到 | Consolidated · Masoneilan" : "页面暂时无法访问 | Consolidated · Masoneilan";
+    ViewData["Description"] = "返回 Consolidated 与 Masoneilan 销售联系首页。";
+    ViewData["FooterNote"] = "Consolidated 与 Masoneilan 为贝克休斯旗下阀门品牌。";
 }
 
-<h1 class="text-danger">Error.</h1>
-<h2 class="text-danger">An error occurred while processing your request.</h2>
-
-@if (Model.ShowRequestId)
-{
-    <p>
-        <strong>Request ID:</strong> <code>@Model.RequestId</code>
-    </p>
-}
-
-<h3>Development Mode</h3>
-<p>
-    Swapping to the <strong>Development</strong> environment displays detailed information about the error that occurred.
-</p>
-<p>
-    <strong>The Development environment shouldn't be enabled for deployed applications.</strong>
-    It can result in displaying sensitive information from exceptions to end users.
-    For local debugging, enable the <strong>Development</strong> environment by setting the <strong>ASPNETCORE_ENVIRONMENT</strong> environment variable to <strong>Development</strong>
-    and restarting the app.
-</p>
+<main class="error-page" id="main-content">
+    <div class="page-shell error-page__inner">
+        <p class="error-page__code">@Model.ResponseStatusCode</p>
+        <h1>@(Model.ResponseStatusCode == 404 ? "页面未找到" : "页面暂时无法访问")</h1>
+        <p class="error-page__summary">
+            @(Model.ResponseStatusCode == 404
+                ? "您访问的页面不存在，请返回首页或直接联系销售。"
+                : "网站当前遇到临时问题，请稍后重试或直接联系销售。")
+        </p>
+        <div class="error-page__actions">
+            <a class="button button--primary" href="/">返回首页</a>
+            <a class="button button--outline" href="/#contact">联系销售</a>
+        </div>
+    </div>
+</main>
