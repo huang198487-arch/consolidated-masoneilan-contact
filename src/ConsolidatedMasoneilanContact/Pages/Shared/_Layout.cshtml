@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="@ViewData["Description"]" />
+    <meta name="theme-color" content="#071d2b" />
+    <title>@ViewData["Title"]</title>
+    <link rel="icon" href="~/images/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    @await RenderSectionAsync("Head", required: false)
+</head>
+<body>
+    <a class="skip-link" href="#main-content">跳到主要内容</a>
+
+    <header class="site-header">
+        <div class="page-shell site-header__inner">
+            <a class="brand-lockup" asp-page="/Index">
+                <span class="brand-lockup__mark" aria-hidden="true">
+                    <svg viewBox="0 0 36 36">
+                        <path d="M7 9h11v4H11v10h7v4H7z" />
+                        <path d="M21 20h8v7H18v-4h7z" />
+                    </svg>
+                </span>
+                <span>
+                    <strong>Consolidated · Masoneilan</strong>
+                    <small>贝克休斯旗下阀门品牌</small>
+                </span>
+                <span class="visually-hidden">销售联系首页</span>
+            </a>
+
+            <nav class="main-nav" aria-label="主要导航">
+                <a href="#brands">产品品牌</a>
+                <a href="#contact">联系方式</a>
+            </nav>
+
+            <a class="header-contact" href="#contact">联系销售</a>
+        </div>
+    </header>
+
+    @RenderBody()
+
+    <footer class="site-footer">
+        <div class="page-shell site-footer__inner">
+            <div class="site-footer__brand">
+                <strong>Consolidated · Masoneilan</strong>
+                <p>@ViewData["FooterNote"]</p>
+            </div>
+            <div class="site-footer__links">
+                @if (ViewData["OfficialSiteUrl"] is string officialSiteUrl)
+                {
+                    <a href="@officialSiteUrl" target="_blank" rel="noopener noreferrer">
+                        Baker Hughes 阀门官网
+                    </a>
+                }
+                <a href="mailto:king.huang@bakerhughes.com">king.huang@bakerhughes.com</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>

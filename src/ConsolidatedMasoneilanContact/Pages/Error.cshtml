@@ -1,0 +1,24 @@
+﻿@page
+@model ErrorModel
+@{
+    ViewData["Title"] = Model.ResponseStatusCode == 404 ? "页面未找到 | Consolidated · Masoneilan" : "页面暂时无法访问 | Consolidated · Masoneilan";
+    ViewData["Description"] = "返回 Consolidated 与 Masoneilan 销售联系首页。";
+    ViewData["FooterNote"] = "Consolidated 与 Masoneilan 为贝克休斯旗下阀门品牌。";
+    ViewData["OfficialSiteUrl"] = "https://valves.bakerhughes.com/";
+}
+
+<main class="error-page" id="main-content">
+    <div class="page-shell error-page__inner">
+        <p class="error-page__code">@Model.ResponseStatusCode</p>
+        <h1>@(Model.ResponseStatusCode == 404 ? "页面未找到" : "页面暂时无法访问")</h1>
+        <p class="error-page__summary">
+            @(Model.ResponseStatusCode == 404
+                ? "您访问的页面不存在，请返回首页或直接联系销售。"
+                : "网站当前遇到临时问题，请稍后重试或直接联系销售。")
+        </p>
+        <div class="error-page__actions">
+            <a class="button button--primary" href="/">返回首页</a>
+            <a class="button button--outline" href="/#contact">联系销售</a>
+        </div>
+    </div>
+</main>

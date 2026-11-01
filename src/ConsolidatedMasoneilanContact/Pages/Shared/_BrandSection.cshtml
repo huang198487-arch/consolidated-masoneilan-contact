@@ -1,0 +1,52 @@
+@model ConsolidatedMasoneilanContact.Models.SiteContent
+
+<section class="brands" id="brands" aria-labelledby="brands-title">
+    <div class="page-shell">
+        <div class="section-intro">
+            <div>
+                <p class="section-label">@Model.BrandSectionLabel</p>
+                <h2 id="brands-title">@Model.BrandSectionTitle</h2>
+            </div>
+            <p class="section-intro__summary">@Model.BrandSectionSummary</p>
+        </div>
+
+        <div class="brand-list">
+            @foreach (var brand in Model.Brands)
+            {
+                <article class="brand-item">
+                    <div class="brand-item__heading">
+                        <span class="brand-item__number">@brand.Number</span>
+                        <div>
+                            <p class="brand-item__chinese">@brand.ChineseName</p>
+                            <h3>@brand.Name</h3>
+                        </div>
+                    </div>
+                    <p class="brand-item__product">@brand.ProductLabel</p>
+                    <p class="brand-item__description">@brand.Description</p>
+                    <figure class="brand-item__media">
+                        <img src="@brand.ImagePath"
+                             alt="@brand.ImageAlt"
+                             width="@brand.ImageWidth"
+                             height="@brand.ImageHeight"
+                             loading="lazy" />
+                    </figure>
+                </article>
+            }
+        </div>
+
+        <a class="official-site-link"
+           href="@Model.OfficialSiteUrl"
+           target="_blank"
+           rel="noopener noreferrer"
+           aria-label="访问 Baker Hughes 阀门官方网站，新窗口打开">
+            <span>
+                <small>Baker Hughes Valves</small>
+                <strong>访问阀门官方网站</strong>
+            </span>
+            <span class="official-site-link__url">valves.bakerhughes.com</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M7 17 17 7M9 7h8v8" />
+            </svg>
+        </a>
+    </div>
+</section>

@@ -1,0 +1,65 @@
+{
+  "images": [
+    {
+      "alt": "Company Logo",
+      "src": "https://cdn.cookielaw.org/logos/021910a1-0451-4393-8461-9563a905670a/c7c4a9ee-0b41-4e9c-ac0d-b82c44a4c48f/6b773715-36e0-42f9-935d-7714db00a55b/bh-logo.png",
+      "width": 400,
+      "height": 62,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "alt": "Powered by Onetrust",
+      "src": "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg",
+      "width": 568,
+      "height": 53,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    }
+  ],
+  "backgrounds": [
+    {
+      "tag": "DIV",
+      "cls": "slide-image ",
+      "bg": "url(\"https://valves.bakerhughes.com/sites/g/files/cozyhq631/files/styles/full/public/2020-01/003-consolidated-banner-1348-508_0.jpg?itok=s_-egl7F\")"
+    },
+    {
+      "tag": "FIGURE",
+      "cls": "image js-image",
+      "bg": "url(\"https://valves.bakerhughes.com/sites/g/files/cozyhq631/files/styles/gallery_image/public/2018-09/cn-sv-1700-bottom-290x218.png?itok=LOgwtImY\")"
+    },
+    {
+      "tag": "FIGURE",
+      "cls": "image js-image",
+      "bg": "url(\"https://valves.bakerhughes.com/sites/g/files/cozyhq631/files/styles/gallery_image/public/2018-09/cn-sv-2700-bottom-290x218.png?itok=Zw7Q9bDN\")"
+    },
+    {
+      "tag": "FIGURE",
+      "cls": "image js-image",
+      "bg": "url(\"https://valves.bakerhughes.com/sites/g/files/cozyhq631/files/styles/gallery_image/public/2026-02/305x230%20%20M6_GA-79343_S98_V-1_No-Logo.jpg?itok=vB-chcih\")"
+    },
+    {
+      "tag": "FIGURE",
+      "cls": "image js-image",
+      "bg": "url(\"https://valves.bakerhughes.com/sites/g/files/cozyhq631/files/styles/gallery_image/public/2018-09/cn-sv-1811-bottom-290x218.png?itok=9zs8mq4P\")"
+    },
+    {
+      "tag": "FIGURE",
+      "cls": "image js-image",
+      "bg": "url(\"https://valves.bakerhughes.com/sites/g/files/cozyhq631/files/styles/gallery_image/public/2018-12/cn-sv-1511-bottom-290x218-121018.png?itok=6MMp6wDO\")"
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "ot-close-icon",
+      "bg": "url(\"https://cdn.cookielaw.org/logos/static/ot_close.svg\")"
+    }
+  ]
+}

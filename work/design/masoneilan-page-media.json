@@ -1,0 +1,115 @@
+{
+  "images": [
+    {
+      "alt": "Company Logo",
+      "src": "https://cdn.cookielaw.org/logos/021910a1-0451-4393-8461-9563a905670a/c7c4a9ee-0b41-4e9c-ac0d-b82c44a4c48f/6b773715-36e0-42f9-935d-7714db00a55b/bh-logo.png",
+      "width": 400,
+      "height": 62,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "alt": "Powered by Onetrust",
+      "src": "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg",
+      "width": 568,
+      "height": 53,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    }
+  ],
+  "backgrounds": [
+    {
+      "tag": "DIV",
+      "cls": "slide-image ",
+      "bg": "url(\"https://valves.bakerhughes.com/sites/g/files/cozyhq631/files/styles/full/public/2021-12/Masoneilan-banner-1600x760_0.jpg?itok=a_SlDsUy\")"
+    },
+    {
+      "tag": "FIGURE",
+      "cls": "image js-image",
+      "bg": "url(\"https://valves.bakerhughes.com/sites/g/files/cozyhq631/files/styles/gallery_image/public/2018-08/globe-control-valves-mn-10000k-290x218-wht4.png?itok=lsgF3n9H\")"
+    },
+    {
+      "tag": "FIGURE",
+      "cls": "image js-image",
+      "bg": "url(\"https://valves.bakerhughes.com/sites/g/files/cozyhq631/files/styles/gallery_image/public/2026-02/Masoneilan%20PXR%20305x230px.jpg?itok=NiEGw7U6\")"
+    },
+    {
+      "tag": "FIGURE",
+      "cls": "image js-image",
+      "bg": "url(\"https://valves.bakerhughes.com/sites/g/files/cozyhq631/files/styles/gallery_image/public/2018-08/globe-control-valves-mn-28000k-varipak-290x218-wht.png?itok=lJw35NQ8\")"
+    },
+    {
+      "tag": "FIGURE",
+      "cls": "image js-image",
+      "bg": "url(\"https://valves.bakerhughes.com/sites/g/files/cozyhq631/files/styles/gallery_image/public/2018-09/globe-control-valves-mn-41005-290x218-wht_0.png?itok=CCO2GG_U\")"
+    },
+    {
+      "tag": "FIGURE",
+      "cls": "image js-image",
+      "bg": "url(\"https://valves.bakerhughes.com/sites/g/files/cozyhq631/files/styles/gallery_image/public/2018-09/globe-control-valves-mn-80000-290x218-wht.png?itok=W5lv-y92\")"
+    },
+    {
+      "tag": "BUTTON",
+      "cls": "ot-close-icon",
+      "bg": "url(\"https://cdn.cookielaw.org/logos/static/ot_close.svg\")"
+    }
+  ],
+  "headings": [
+    {
+      "tag": "H2",
+      "text": "Main navigation"
+    },
+    {
+      "tag": "H1",
+      "text": "Masoneilan"
+    },
+    {
+      "tag": "H3",
+      "text": "Products & Services"
+    },
+    {
+      "tag": "H3",
+      "text": "Let's stay in touch"
+    },
+    {
+      "tag": "H2",
+      "text": "Cookie Preference Center"
+    },
+    {
+      "tag": "H2",
+      "text": "Cookie Preference Center"
+    },
+    {
+      "tag": "H3",
+      "text": "Privacy Notice"
+    },
+    {
+      "tag": "H3",
+      "text": "Strictly Necessary Cookies"
+    },
+    {
+      "tag": "H3",
+      "text": "Performance Cookies"
+    },
+    {
+      "tag": "H3",
+      "text": "Functional Cookies"
+    },
+    {
+      "tag": "H3",
+      "text": "Targeting Cookies"
+    },
+    {
+      "tag": "H3",
+      "text": "Vendors List"
+    }
+  ]
+}
